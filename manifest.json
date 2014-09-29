@@ -1,0 +1,17 @@
+{
+  "name": "HappyBanken",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "Bring happiness to sad banken customers.",
+  "icons": {
+    "48" : "sample-48.png",
+    "128" : "sample-128.png"
+  },
+  "content_scripts": [
+    {
+      //"matches": ["https://secure.handelsbanken.com/*"],
+      "matches" : ["<all_urls>"],
+      "js" : [ "contentscript.js", "lodash.js" ]
+    }
+  ]
+}
