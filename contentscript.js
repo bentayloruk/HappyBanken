@@ -13,3 +13,17 @@ accSelects.forEach(function(s) {
     }
 })
 
+/*
+var selectSelects = [ $('#lang') ];
+selectSelects.forEach(function(s) { 
+    if(s.length) {
+        var options = {
+            placeholder_text_multiple : "Select an account",
+            disable_search_threshold : 10,
+            search_contains : true
+        }
+        s.chosen();
+    }
+})
+*/
+
