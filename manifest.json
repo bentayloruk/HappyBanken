@@ -9,9 +9,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://secure.handelsbanken.com/*"],
-      //"matches" : ["<all_urls>"],
-      "js" : [ "jquery.js", "lodash.js", "contentscript.js" ],
+      //"matches": ["https://secure.handelsbanken.com/*"],
+      "matches" : ["<all_urls>"],
+      "js" : [ "jquery.js", "lodash.js", "contentscript.js", "chosen.jquery.min.js" ],
+      "css": [ "chosen.min.css" ],
       "run_at" : "document_end",
       "all_frames" : true
     }
